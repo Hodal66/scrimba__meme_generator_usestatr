@@ -1,0 +1,88 @@
+.myLogo{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    margin-left:5rem;
+    margin-right:5rem;
+}
+header{
+
+    display:flex;
+    background-color: rgb(54, 28, 54);
+    padding:1rem;
+    gap: 2rem;
+}
+
+.headerH2{
+    font-size:1.5rem;
+    display: flex;
+    color: rgb(236, 243, 249);
+    font-style: bold;
+   flex-direction:row;
+}
+section{
+    padding:2rem;
+}
+section.inputSection{
+    background-color: rgb(236, 243, 249);
+    display:flex;
+    gap:1rem;
+}
+section.inputSection input{
+    padding: 0.5rem;
+    border-radius:0.3rem;
+    border:none;
+}
+section.inputSection input:hover{
+    border-bottom: 5px inset  rgb(54, 28, 54);
+}
+
+.clickOnImage{
+    background-color:  rgb(54, 28, 54);
+    padding: 1rem;
+   cursor: pointer;
+    border-radius:0.3rem;
+    border:none;
+    color: white;
+    font-size:1.2rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:1% 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imageContainer{
+    background-color: rgb(236, 243, 249);
+    padding:2rem;
+    border-radius: 1rem;
+    max-width:50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.imageContainer img{
+    border-radius: 1rem;
+    max-width:100%;
+}
+.profile{
+    width:50%;
+    height:50%;
+border-radius: 50%;
+}
+.text_over-image{
+    position:absolute;
+    font-size:2rem;
+    color:rgb(3, 15, 27);
+    box-shadow: 4px 4px 4px rgb(120, 167, 208);
+    text-indent: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+ 
+}
+.imageContainer .top{
+    top:350px;
+}
+.imageContainer .bottom{
+    bottom:-100px;
+}
